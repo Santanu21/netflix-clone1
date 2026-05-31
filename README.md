@@ -1,87 +1,39 @@
  # Netflix Clone 🎬
 
-A full-stack Netflix-inspired streaming platform built using modern web technologies. Users can browse movies, view details, and enjoy a responsive user experience similar to Netflix.
+ ## Setup Instructions
 
-## 🚀 Features
-
-- User Authentication
-- Browse Movies & TV Shows
-- Responsive UI
-- Search Functionality
-- Movie Details Page
-- Protected Routes
-- Modern Netflix-inspired Design
-
-## 🛠️ Tech Stack
-
-### Frontend
-- React.js
-- JavaScript
-- HTML5
-- CSS3
-- Bootstrap / Tailwind CSS
-
-### Backend
-- Node.js
-- Express.js
-
-### Database
-- MongoDB
-
-### Tools
-- Git
-- GitHub
-- VS Code
-
-## 📂 Project Structure
-
-```
-netflix-clone
-│
-├── client
-├── server
-├── public
-├── src
-└── README.md
-```
-
-## ⚙️ Installation
-
-### Clone Repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Santanu21/netflix-clone1.git
-```
-
-### Navigate to Project
-
-```bash
+git clone <repository-url>
 cd netflix-clone
 ```
 
-### Install Dependencies
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### Run Project
+### 3. Create .env file
 
-```bash
-npm start
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key_here
 ```
 
-## 📸 Screenshots
+### 4. Get TMDB API Key
 
-Add project screenshots here.
+1. Create an account at TMDB.
+2. Generate your API key.
+3. Paste it into the `.env` file.
 
-## 🔮 Future Improvements
+### 5. Run the project
 
-- Video Streaming
-- Subscription Plans
-- Watchlist Feature
-- Recommendation System
-- Payment Integration
+```bash
+npm run dev
+```
 
 ## 👨‍💻 Author
 
