@@ -1,16 +1,90 @@
-# React + Vite
+ # Netflix Clone 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Netflix-inspired streaming platform built using modern web technologies. Users can browse movies, view details, and enjoy a responsive user experience similar to Netflix.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Authentication
+- Browse Movies & TV Shows
+- Responsive UI
+- Search Functionality
+- Movie Details Page
+- Protected Routes
+- Modern Netflix-inspired Design
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Bootstrap / Tailwind CSS
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Database
+- MongoDB
+
+### Tools
+- Git
+- GitHub
+- VS Code
+
+## 📂 Project Structure
+
+```
+netflix-clone
+│
+├── client
+├── server
+├── public
+├── src
+└── README.md
+```
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/netflix-clone.git
+```
+
+### Navigate to Project
+
+```bash
+cd netflix-clone
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Project
+
+```bash
+npm start
+```
+
+## 📸 Screenshots
+
+Add project screenshots here.
+
+## 🔮 Future Improvements
+
+- Video Streaming
+- Subscription Plans
+- Watchlist Feature
+- Recommendation System
+- Payment Integration
+
+## 👨‍💻 Author
+
+Santanu Das
+
+GitHub: https://github.com/Santanu-das-08
