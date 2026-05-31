@@ -50,7 +50,7 @@ netflix-clone
 ### Clone Repository
 
 ```bash
-git clone https://github.com/Santanu21/netflix-clone.git
+git clone https://github.com/Santanu21/netflix-clone1.git
 ```
 
 ### Navigate to Project
